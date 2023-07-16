@@ -18,7 +18,7 @@ void display(int *arr, int n){
 
 int partition(int *arr, int l, int m){
     int pivot = arr[m];
-    int i = l;
+    int i = 0;
     for(int j=i; j<=m-1; j++){
         if(arr[j]<pivot){
             int ch=arr[i];
